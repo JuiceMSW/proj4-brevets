@@ -1,6 +1,6 @@
 ## Author Information
 
-Name: Michael Welch
+Name: Michael Welch  
 Email: michael.welch.99@gmail.com
 
 ## About
