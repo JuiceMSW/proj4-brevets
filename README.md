@@ -13,13 +13,13 @@ The Official ACP Form Based Calculator is located here - https://rusa.org/octime
 
 ### Specifics
 
-Calculating the Open and Close Times is done by taking the Control Distance and dividing by the number specified by the table  
+Calculating the Open and Close Times is done by taking the Control Distance and dividing by the number specified by the table.  
 Ex: 150km
 
 	Max Speed from 0 - 200km = 34: Open Time = 150/34 = 04H24M
 	Min Speed from 0 - 600km = 15: Close Time = 150/15 = 10H00M
 
-If a Control Distance spans over multiple ranges in the table then the Open and Close Times are calculated as follows  
+If a Control Distance spans over multiple ranges in the table then the Open and Close Times are calculated as follows.  
 Ex: 650km
 
 	Max Speed from 0 - 200km = 34: 200/34 = 05H52M
