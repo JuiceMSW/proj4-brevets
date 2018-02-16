@@ -102,10 +102,15 @@ The Open and Close Times are calculated using the table specified by the ACP fou
 
 ### Specifics
 
-Calculating the Open and Close Times is done by taking the Control Distance and dividing by the number specified by the table (Ex: 150km, Max Speed from 0 - 200km = 34: Open Time = 150/34 = 04H24M, Min Speed from 0 - 600km = 15: Close Time = 150/15 = 10H00M)
+Calculating the Open and Close Times is done by taking the Control Distance and dividing by the number specified by the table
+Ex: 150km
+
+	Max Speed from 0 - 200km = 34: Open Time = 150/34 = 04H24M
+	Min Speed from 0 - 600km = 15: Close Time = 150/15 = 10H00M
 
 If a Control Distance spans over multiple ranges in the table then the Open and Close Times are calculated as follows
-(Ex:650km
+Ex:650km
+
 	Max Speed from 0 - 200km = 34: 200/34 = 05H52M
 	Max Speed from 200 - 400km = 32: 200/32 = 06H15M
 	Max Speed from 400 - 600km = 30: 200/30 = 06H40M
@@ -115,7 +120,6 @@ If a Control Distance spans over multiple ranges in the table then the Open and 
 	Min Speed from 0 - 600km = 15: 600/15 = 40H00M
 	Min Speed from 600 - 1000km = 11.428: 50/11.428 = 04H22M
 	Close Time = 40H00M + 04H22M = 44H22M
-)
 
 The Maximum Control Distance is 20% Longer than the Brevet Distance (Ex: For a 200km Brevet, 240km is the Maximum Control Distance)
 For any Control in this Range, the Open and Close times are equal to the Brevet Distance Open and Close Times.
